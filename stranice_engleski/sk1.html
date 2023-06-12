@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<!--
+Template Name: Bronea
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-<title>Artwork Gallery</title>
+<title>Artwork Gallery | David</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="../layout/bootstrap.min.css">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 
 <script src="../js/jquery.min.js"></script>
 <script src="../js/jquery-3.7.0.min.js"></script>
 <script src="../js/index.js"></script>
-<script src="../js/pocetna.js"></script>
+<script src="../js/pages123.js"></script>
 
 </head>
-<body id="top">
-
-<div class="bgded overlay" style="background-image:url('../slike/poz2.jpg'); background-size: cover; background-position: center; "> 
+<body  id="4">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div id="proba" class="bgded overlay" style="background-image:url('../slike/pozadina.jpg');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row0">
-    <div id="topbar" class="hoc clear"> 
+    <div id="topbar" class="hoc  clear"> 
       <!-- ################################################################################################ -->
       
       <div class="fl_right">
@@ -99,38 +108,25 @@
 
        
       </nav>
-      
       <!-- ################################################################################################ -->
     </header>
-    
   </div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div class="wrapper">
-    <div id="pageintro" class="hoc clear"> 
+    <section id="breadcrumb" class="hoc clear"> 
       <!-- ################################################################################################ -->
-      <article>
-        <div>
-          <!-- <p class="heading">ГАЛЕРИЈА</p>-->
-           <h2 class="heading">Gallery</h2>
-           <p class="heading">Discover the beauty of art in our gallery.</p>
-         </div>
-        <footer>
-          <!--<ul class="nospace inline pushright">
-            <li>
-              <a href="https://drive.google.com/file/d/0BwufrjuWVdV-MzZOYTdaN2F5Unc/view?usp=drive_link&resourcekey=0--8G7OhMtWwmqwjcSsE7yQg" download>
-                <button>Preuzmi PDF</button>
-              </a>
-            </li>
-            
-            
-            <li><a class="btn" href="#">дугме2</a></li>
-          </ul>-->
-        </footer>
-      </article>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Works of art</a></li>
+        <li><a href="skulpture.html">Sculptures</a></li>
+        <li><a href="#">David</a></li>
+      </ul>
       <!-- ################################################################################################ -->
-    </div>
+      <h6 class="heading">David</h6>
+      <!-- ################################################################################################ -->
+    </section>
   </div>
   <!-- ################################################################################################ -->
 </div>
@@ -138,61 +134,64 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-
+<div class="wrapper row3">
+  <main class="hoc container clear" style="text-align: center ;"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+      <div id="slika" class="avatar">
+        <img src="../images/demo/sk1.jpg" style="align-content: center ; width: 300px; height: auto;">
+        <h6 class="heading font-x1"><br>David</h6>
+        <p>Michelangelo</p>
+        <br><br>
+        <p>Michelangelo's David is a masterpiece of the Renaissance era, sculpted in marble between 1501 and 1504. The statue, standing 5.17 meters tall including the base, represents the biblical figure of David in the moment of concentration before his battle with Goliath. It was sculpted as a symbol of the city-state of Florence during the medieval period. Originally, it was placed in front of the current Palazzo Vecchio, the seat of Florentine government. The sculpture was unveiled on September 8, 1504. A replica of the sculpture has been placed at the original location since 1910, while the original has been protected from damage and preserved since 1873 in the Galleria dell'Accademia in Florence. Michelangelo's heroic figure depicts a sixteen-year-old boy who has not yet fully matured into adulthood but possesses strong muscles developed from hard work at that age. A belt rests on his left shoulder, and the stone is still in his right hand, with his muscles tense and his forehead furrowed in a defiant expression.</p><br>
+        <span>Estimated value: $700 million</span><br>
+        <span>Estimated age: 519 years</span>
+          
+        </div>
+      <div id="comments">
+        <h1><br><br>Offers</h1>
+       
+        <ul id="postojece"></ul>
+        
+        
+          
+          
+        <h2>Leave an offer</h2>
+        <form method="post" id="myForm">
+          <div class="one_third first">
+            <label for="name">Name <span>*</span></label>
+            <input type="text" name="name" id="name" value="" size="22" required>
+          </div>
+          <div class="one_third">
+            <label for="email">Email <span>*</span></label>
+            <input type="email" name="email" id="email" value="" size="22" required>
+          </div>
+          <div class="one_third">
+            <label for="price">Offer <span>*</span></label>
+            <input type="price" name="price" id="price" value="" size="22" required>
+          </div>
+          <div class="block clear">
+            <label for="comment">Optional comment</label>
+            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+          </div>
+          <div style="text-align: center ;">
+            <input type="submit" name="submit" value="Submit Form">
+            
+            &nbsp;
+            <input type="reset" name="reset" value="Reset Form">
+          </div>
+        </form>
+      </div>
+      <!-- ################################################################################################ -->
+    
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
   </main>
 </div>
-
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <h2>Welcome to our virtual art gallery!</h2>
-    <br><br>
-    <p style="font-size: 16px">Allow art to inspire and enrich your everyday life.</p>
-    <p style="font-size: 16px">Choose a category and find a masterpiece that will enrich your living space or become a cherished gift for someone special to you.</p>
-    <br><br>
-
-    <ul class="nospace group services" >
-      <li class="one_third first btmspace-30" >
-        <article class="bgded overlay" style="height: 450px;">
-          <img src="../images/demo/slikeindex.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="slike.html"><br>Paintings..</a></h6>
-          
-        </article>
-      </li>
-      <li class="one_third btmspace-30">
-        <article class="bgded overlay" style="height: 450px;">
-          <img src="../images/demo/skulindex.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="skulpture.html"><br>Sculptures..</a></h6>
-          
-        </article>
-      </li>
-      <li class="one_third btmspace-30">
-        <article class="bgded overlay" style="height: 450px;" >
-          <img src="../images/demo/moma.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="ostale.html"><br>Other artwork..</a></h6>
-          
-        </article>
-      </li>
-   
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-
-<div class="wrapper row3">
-  <div class="hoc container clear">
-    <h1><br><br>Most recent offers</h1>
-       
-    <ul id="postojece"></ul>
-  </div>
-</div>
-
 <div class="wrapper row4">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
@@ -228,7 +227,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
-<!-- JAVASCRIPTS -->
+
 
 </body>
 </html>

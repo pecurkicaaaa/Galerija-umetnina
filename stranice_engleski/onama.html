@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<!--
+Template Name: Bronea
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-<title>Artwork Gallery</title>
+<title>Artwork Gallery | About us</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="../layout/bootstrap.min.css">
 <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 
 <script src="../js/jquery.min.js"></script>
 <script src="../js/jquery-3.7.0.min.js"></script>
 <script src="../js/index.js"></script>
-<script src="../js/pocetna.js"></script>
-
 </head>
 <body id="top">
-
-<div class="bgded overlay" style="background-image:url('../slike/poz2.jpg'); background-size: cover; background-position: center; "> 
-  <!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('../images/demo/pozadinaaa.jpg');"> 
   <div class="wrapper row0">
     <div id="topbar" class="hoc clear"> 
       <!-- ################################################################################################ -->
@@ -41,13 +47,14 @@
       <!-- ################################################################################################ -->
     </div>
   </div>
+ 
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <!-- ################################################################################################ -->
-        <a href="index.html"><img src="../slike/logo4.png" id="logo-image"></a>
+      <a href="index.html"><img src="../slike/logo4.png" id="logo-image"></a>
         
       
       <!-- ################################################################################################ -->
@@ -99,38 +106,23 @@
 
        
       </nav>
-      
       <!-- ################################################################################################ -->
     </header>
-    
   </div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div class="wrapper">
-    <div id="pageintro" class="hoc clear"> 
+    <section id="breadcrumb" class="hoc clear"> 
       <!-- ################################################################################################ -->
-      <article>
-        <div>
-          <!-- <p class="heading">ГАЛЕРИЈА</p>-->
-           <h2 class="heading">Gallery</h2>
-           <p class="heading">Discover the beauty of art in our gallery.</p>
-         </div>
-        <footer>
-          <!--<ul class="nospace inline pushright">
-            <li>
-              <a href="https://drive.google.com/file/d/0BwufrjuWVdV-MzZOYTdaN2F5Unc/view?usp=drive_link&resourcekey=0--8G7OhMtWwmqwjcSsE7yQg" download>
-                <button>Preuzmi PDF</button>
-              </a>
-            </li>
-            
-            
-            <li><a class="btn" href="#">дугме2</a></li>
-          </ul>-->
-        </footer>
-      </article>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
       <!-- ################################################################################################ -->
-    </div>
+      <h6 class="heading">About us</h6>
+      <!-- ################################################################################################ -->
+    </section>
   </div>
   <!-- ################################################################################################ -->
 </div>
@@ -138,61 +130,100 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class=""> 
+      <!-- ################################################################################################ -->
+      
+      <img class="imgr borderedbox inspace-5" src="../slike/poz2.jpg" alt="" width="200px">
+      <p>The Art Gallery was founded in June 2015 with the aim of encompassing masterpieces that have marked the history of art.</p>
+      <p>The gallery offers the opportunity to submit offers and purchase available artworks. Years of work and good collaboration have been key to our success and leaving behind thousands of satisfied customers. We take pride in our collection of awards that confirms our dedication to art. Our gallery has been recognized for its outstanding contribution to art promotion.</p>
+      <p>Currently, our gallery offers paintings, sculptures, and other artworks. In the future, it will be possible to purchase various products made of ceramics, clay, porcelain, and more on our website...</p>
+      
+      <br><br>
+      <div class="">
+        <!-- ################################################################################################ -->
+        
+        <img class="imgl borderedbox inspace-5" src="../slike/slikk.jpeg" alt="">
+        
+        <div style="display: inline-block; vertical-align: top; margin-left: 50px;">
+          <br>
+          <p>Awards we have won:
+            <br><br>
+            <ul style="list-style-type: none; margin: 0; padding: 0;">
+              <li>&#9675; Award for Artistic Selection - awarded by the Museum of Contemporary Art, 2018.</li>
+              <br>
+              <li>&#9675; Award of the Art Gallery "Nadežda Petrović", 2021.</li>
+              <br>
+              <li>&#9675; Best Museum Award - awarded by the Museum Society of Serbia, 2023.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      
+      <br><br><br><br>
 
+      <style>
+        .map-container {
+          position: relative;
+          overflow: hidden;
+          padding-bottom: 56.25%;
+          height: 0;
+          width: 60%;
+          margin: 0 !important;
+          
+          float: left;
+        }
+        
+        .map-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: 0;
+        }
+        
+        .contact-card {
+          
+          
+          background: #f2f2f2;
+          margin-left: 20px; /* Dodano margin-left za razmak između mapa i kontakt kartice */
+          float: left;
+        }
+        
+        .contact-card h3 {
+          margin-top: 20px;
+        }
+      </style>
+      
+      <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.78816494022!2d20.476132399999997!3d44.8055056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7b0a2ff1ed89%3A0x60020f510aa310f0!2z0JPQsNC70LXRgNC40ZjQsCDRg9C80LXRgtC90LjQvdCw!5e0!3m2!1ssr!2srs!4v1686227565695!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contact-card">
+        <h3>Address:</h3>
+        <p>King Alexander Boulevard 73, Belgrade</p>
+        <h3>Phone:</h3>
+        <p>+381 (011) 324-8464</p>
+        <h3>Working Hours:</h3>
+        <p>Monday: 10:00 AM - 6:00 PM</p>
+        <p>Tuesday - Sunday: 10:00 AM - 8:00 PM</p>
+      </div>
+      
+    
+      
+     </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
   </main>
 </div>
-
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <h2>Welcome to our virtual art gallery!</h2>
-    <br><br>
-    <p style="font-size: 16px">Allow art to inspire and enrich your everyday life.</p>
-    <p style="font-size: 16px">Choose a category and find a masterpiece that will enrich your living space or become a cherished gift for someone special to you.</p>
-    <br><br>
-
-    <ul class="nospace group services" >
-      <li class="one_third first btmspace-30" >
-        <article class="bgded overlay" style="height: 450px;">
-          <img src="../images/demo/slikeindex.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="slike.html"><br>Paintings..</a></h6>
-          
-        </article>
-      </li>
-      <li class="one_third btmspace-30">
-        <article class="bgded overlay" style="height: 450px;">
-          <img src="../images/demo/skulindex.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="skulpture.html"><br>Sculptures..</a></h6>
-          
-        </article>
-      </li>
-      <li class="one_third btmspace-30">
-        <article class="bgded overlay" style="height: 450px;" >
-          <img src="../images/demo/moma.jpg" style="height: 570px; object-fit: cover; width: 100%; height: 70%;"></img>
-          <h6 class="heading font-x1"><a href="ostale.html"><br>Other artwork..</a></h6>
-          
-        </article>
-      </li>
-   
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-
-<div class="wrapper row3">
-  <div class="hoc container clear">
-    <h1><br><br>Most recent offers</h1>
-       
-    <ul id="postojece"></ul>
-  </div>
-</div>
-
 <div class="wrapper row4">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
@@ -229,6 +260,8 @@
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/jquery.backtotop.js"></script>
 
 </body>
 </html>
