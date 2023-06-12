@@ -16,7 +16,7 @@
 
 </head>
 <body id="top">
-
+console.log("blabla")
 <div class="bgded overlay" style="background-image:url('../slike/poz2.jpg'); background-size: cover; background-position: center; "> 
   <!-- ################################################################################################ -->
   <div class="wrapper row0">
