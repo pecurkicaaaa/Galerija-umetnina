@@ -1,2 +1,2 @@
-# Galerija-umetnina
-Veb prezentacija galerije umetnina
+# Artwork gallery
+Web presentation of artwork gallery 
